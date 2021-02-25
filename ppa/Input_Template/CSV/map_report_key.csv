@@ -1,0 +1,16 @@
+Report,Tab,Layers to show,MapDesc,MapImgFile,RowNum,ColNum
+PPA_Template_ArterialExp.xlsx,0ATitlePg,Project Line,Cover map,CoverPage.jpg,6,A
+PPA_Template_ArterialExp.xlsx,3Multimodal,"Project Line, bikeways",Bikeways in project area,BikeRoutes.jpg,20,A
+PPA_Template_ArterialExp.xlsx,3Multimodal,"project line, transit heat raster",Project area transit heat map,TransitSvc.jpg,56,A
+PPA_Template_ArterialExp.xlsx,5Freight,"project line, truck routes",STAA truck routes in project area,TruckRtes.jpg,11,A
+PPA_Template_ArterialExp.xlsx,6Safety,"project line, collision heat map",Collision heat map of project area,CollisionHeat.jpg,12,A
+PPA_Template_CommDesign.xlsx,0ATitlePg,Project Line,Cover map,CoverPage.jpg,6,A
+PPA_Template_SGR_CS.xlsx,0ATitlePg,Project Line,Cover map,CoverPage.jpg,6,A
+PPA_Template_SGR_CS.xlsx,3Multimodal,"Project Line, bikeways",Bikeways in project area,BikeRoutes.jpg,20,A
+PPA_Template_SGR_CS.xlsx,3Multimodal,"project line, transit heat raster",Project area transit heat map,TransitSvc.jpg,56,A
+PPA_Template_SGR_CS.xlsx,5Freight,"project line, truck routes",STAA truck routes in project area,TruckRtes.jpg,11,A
+PPA_Template_SGR_CS.xlsx,6Safety,"project line, collision heat map",Collision heat map of project area,CollisionHeat.jpg,12,A
+PPA_Template_Freeway.xlsx,0ATitlePg,Project Line,Cover map,CoverPage.jpg,6,A
+PPA_Template_Freeway.xlsx,4EconProsperity,"project line, job access polygon map",30min drive job access from each BG,JobAccDrive.jpg,24,A
+PPA_Template_Freeway.xlsx,4EconProsperity,"project line, edu access polygon map",30min drive edu access from each BG,EduAccDrive.jpg,63,A
+PPA_Template_Freeway.xlsx,6Safety,"project line, collision heat map",Collision heat map of project area,CollisionHeat.jpg,12,A

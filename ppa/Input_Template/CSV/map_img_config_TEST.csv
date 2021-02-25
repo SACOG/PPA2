@@ -1,0 +1,3 @@
+MapName,MapLayout,SQL,ProjLineLayer,DataLayer
+CoverPage,Layout_CoverPage,OBJECTID>0,Project_Line_Template,
+BikeRoutes,Layout_BikeRoutes,OBJECTID>0,Project_Line_Template,BikeRte_C1_C2_C4_2017

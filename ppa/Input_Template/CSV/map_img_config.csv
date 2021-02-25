@@ -1,0 +1,8 @@
+MapName,MapLayout,SQL,ProjLineLayer,DataLayer
+CoverPage,Layout_CoverPage,OBJECTID>0,Project Line,None
+BikeRoutes,Layout_BikeRoutes,OBJECTID>0,Project Line,BikeRte_C1_C2_C4_2017
+TransitSvc,Layout_TransitSvc,OBJECTID>0,Project Line,Transit service heat map based on transit stop points
+TruckRtes,Layout_TruckRtes,OBJECTID>0,Project Line,STAATruckRoutes
+CollisionHeat,Layout_CollisionHeat,OBJECTID>0,Project Line,Collision heat map
+JobAccDrive,Layout_JobAccDrive,OBJECTID>0,Project Line,Sugar_access_data_latest (jobs by driving)
+EduAccDrive,Layout_EduAccDrive,OBJECTID>0,Project Line,Sugar_access_data_latest (ed facilities by driving)
