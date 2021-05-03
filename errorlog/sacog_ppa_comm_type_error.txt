@@ -1,0 +1,12 @@
+•	Submitted.
+•	Executing...
+•	Start Time: Friday, January 29, 2021 9:38:27 AM
+•	Start Time: Friday, January 29, 2021 9:38:27 AM
+•	Running script Comm Desgn Tool Online...
+•	Failed script Comm Desgn Tool Online...
+•	Traceback (most recent call last): File "C:\arcgisserver\directories\arcgissystem\arcgisinput\CommDesgnToolOnline_03132020.GPServer\extracted\p20\ppa_v2_gis\PPA2_master_project.py", line 273, in project_ctype = get_proj_ctype(project_fc, params.comm_types_fc) File "C:\arcgisserver\directories\arcgissystem\arcgisinput\CommDesgnToolOnline_03132020.GPServer\extracted\p20\ppa_v2_gis\PPA2_master_project.py", line 54, in get_proj_ctype 0, "LINE") File "c:\program files\arcgis\server\framework\runtime\arcgis\Resources\arcpy\arcpy\analysis.py", line 442, in Intersect raise e File "c:\program files\arcgis\server\framework\runtime\arcgis\Resources\arcpy\arcpy\analysis.py", line 439, in Intersect retval = convertArcObjectToPythonObject(gp.Intersect_analysis(*gp_fixargs((in_features, out_feature_class, join_attributes, cluster_tolerance, output_type), True))) File "c:\program files\arcgis\server\framework\runtime\arcgis\Resources\arcpy\arcpy\geoprocessing\_base.py", line 506, in return lambda *args: val(*gp_fixargs(args, True)) arcgisscripting.ExecuteError: Failed to execute. Parameters are not valid. ERROR 000732: Input Features: Dataset comm_type_jurspec_dissolve does not exist or is not supported Failed to execute (Intersect). 
+•	Failed to execute (Comm Desgn Tool Online).
+•	Failed at Friday, January 29, 2021 9:38:31 AM (Elapsed Time: 3.13 seconds)
+•	Failed to execute (Comm Desgn Tool Online).
+•	Failed at Friday, January 29, 2021 9:38:31 AM (Elapsed Time: 3.14 seconds)
+•	Failed.
