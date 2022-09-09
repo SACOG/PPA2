@@ -294,7 +294,7 @@ class Publish(object):
         arcpy.env.overwriteOutput = True
         try:
             # create temporary copy of APRX to not have conflicts if 2+ runs done at same time.
-            aprx_temp_path = os.path.join(self.out_folder, "TEMP{}.aprx".format(int(time.clock()) + 1)) 
+            aprx_temp_path = os.path.join(self.out_folder, "TEMP{}.aprx".format(int(time.perf_counter()) + 1)) 
             aprx_template_obj = arcpy.mp.ArcGISProject(self.aprx_path)
             aprx_template_obj.saveACopy(aprx_temp_path)
             
@@ -326,7 +326,7 @@ class Publish(object):
                             
                             try:
                                 lyr = map.listLayers(print_config.Layer)[0] # return layer object--based on layer name, not FC path
-                                fl = "fl{}".format(int(time.clock()))
+                                fl = "fl{}".format(int(time.perf_counter()))
                                 if arcpy.Exists(fl):
                                     try:
                                         arcpy.Delete_management(fl)

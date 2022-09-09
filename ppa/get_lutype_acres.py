@@ -40,10 +40,10 @@ class GetLandUseArea():
         self.buff_pclpoly_intersect()
         
     def buff_pclpoly_intersect(self):
-        # arcpy.AddMessage("script updated {}".format(int(time.clock()))) # when troubleshooting
+        # arcpy.AddMessage("script updated {}".format(int(time.perf_counter()))) # when troubleshooting
         
     
-        sufx = int(time.clock()) + 1
+        sufx = int(time.perf_counter()) + 1
         fl_parcels = os.path.join(arcpy.env.scratchGDB, 'fl_parcels{}'.format(sufx))
         fl_project = g_ESRI_variable_2
     

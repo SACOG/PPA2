@@ -44,7 +44,7 @@ class LandUseBuffCalcs():
     def point_sum(self):
         arcpy.AddMessage("Aggregating land use data...")
         
-        sufx = int(time.clock()) + 1
+        sufx = int(time.perf_counter()) + 1
         fl_parcel = os.path.join('memory','fl_parcel{}'.format(sufx))
         fl_project = g_ESRI_variable_2
         

@@ -94,7 +94,7 @@ def calc_mix_index(in_df, params_df, hh_col, lu_factor_cols, mix_idx_col):
 def get_mix_idx(fc_parcel, fc_project, project_type):
     arcpy.AddMessage("Calculating mix index...")
 
-    sufx = int(time.clock()) + 1
+    sufx = int(time.perf_counter()) + 1
     fl_parcel = os.path.join('memory','fl_parcel{}'.format(sufx))
     fl_project = g_ESRI_variable_2
 

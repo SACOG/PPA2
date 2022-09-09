@@ -222,7 +222,7 @@ class Publish(object):
                                 print("Added layer {} to map {}".format(print_config.Layer, print_config.MapFrame))
                                 
                                 lyr = map.listLayers(print_config.Layer)[0] # return layer object--based on layer name, not FC path
-                                fl = "fl{}".format(int(time.clock()))
+                                fl = "fl{}".format(int(time.perf_counter()))
                                 if arcpy.Exists(fl):
                                     try:
                                         arcpy.Delete_management(fl)

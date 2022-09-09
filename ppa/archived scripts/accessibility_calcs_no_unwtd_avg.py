@@ -32,7 +32,7 @@ def get_acc_data(fc_project, fc_accdata, project_type, get_ej=False):
     
     arcpy.AddMessage("Calculating accessibility metrics...")
     
-    sufx = int(time.clock()) + 1
+    sufx = int(time.perf_counter()) + 1
     fl_accdata = os.path.join('memory','fl_accdata{}'.format(sufx))
     fl_project = g_ESRI_variable_2
 

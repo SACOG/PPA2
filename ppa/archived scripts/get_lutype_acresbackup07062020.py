@@ -29,7 +29,7 @@ import ppa_input_params as params
 def get_lutype_acreage(fc_project, projtyp, fc_poly_parcels, lutype):
     arcpy.AddMessage("Estimating {} acres near project...".format(lutype))
 
-    sufx = int(time.clock()) + 1
+    sufx = int(time.perf_counter()) + 1
     fl_parcels = os.path.join('memory','fl_parcels{}'.format(sufx))
     fl_project = g_ESRI_variable_2
 

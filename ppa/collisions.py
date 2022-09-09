@@ -37,7 +37,7 @@ def get_model_link_sums(fc_polygon, fc_model_links):
     metrics. E.g. daily VMT for all selected intersectin model links, total lane miles on intersecting
     links, etc.'''
 
-    sufx = int(time.clock()) + 1
+    sufx = int(time.perf_counter()) + 1
     fl_polygon = os.path.join('memory','fl_polygon{}'.format(sufx))
     fl_model_links = os.path.join('memory','fl_model_links{}'.format(sufx))
     
@@ -64,7 +64,7 @@ def get_model_link_sums(fc_polygon, fc_model_links):
 def get_centerline_miles(selection_poly_fc, centerline_fc):
     '''Calculate centerline miles for all road links whose center is within a polygon,
     such as a buffer around a road segment, or community type, trip shed, etc.'''
-    sufx = int(time.clock()) + 1
+    sufx = int(time.perf_counter()) + 1
     fl_selection_poly = os.path.join('memory','fl_selection_poly{}'.format(sufx))
     fl_centerline = os.path.join('memory','fl_centerline{}'.format(sufx))
     
@@ -97,7 +97,7 @@ def get_collision_data(fc_project, project_type, fc_colln_pts, project_adt):
 
     fc_model_links = params.model_links_fc()
 
-    sufx = int(time.clock()) + 1
+    sufx = int(time.perf_counter()) + 1
     fl_project = g_ESRI_variable_5
     fl_colln_pts = os.path.join('memory','fl_colln_pts{}'.format(sufx))
     

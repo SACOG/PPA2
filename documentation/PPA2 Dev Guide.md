@@ -838,11 +838,11 @@ online tools.
     -   *Solution 3*:
 
         -   For all affected feature layers, give the feature layer name
-            a time.clock() suffix, and also create the layer in
+            a time.perf_counter() suffix, and also create the layer in
             arcpy.env.scratchGDB to make sure it is unique every time it
             is made or deleted. E.g., instead of fl = "feature_layer",
             make it fl =
-            os.path.join(arcpy.env.scratchGDB,"feature_layer{}".format(int(time.clock())+1)
+            os.path.join(arcpy.env.scratchGDB,"feature_layer{}".format(int(time.perf_counter())+1)
 
         -   *Solution 4*: This issue primarily arises when the tool is
             being run by 2 or more people at the same time, or if 2+ run
